@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(59, 63, 62);
+
+}
+h1,li,a{
+    color: rgb(50, 45, 45);
+    margin-right: 10px;
+    font-weight: bold;
+
+}
+header{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 10rem;
+    box-shadow: 5px 4px 4px 2px black;
+    background-color: rgb(66, 214, 197);
+    border-radius: 10px;
+    margin: 40px 10px;
+}
+nav{
+    margin-left: 80px;
+}
+
+.nav_link li{
+    display: inline-block;
+    list-style: none;
+    color: aliceblue;
+    
+}
+ul li a{
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    font-size: 1.5rem;
+
+}
+ul li a:hover{
+    transition: all 0.3s ease 0s;
+    font-size: larger;
+    color: rgb(45, 62, 57);
+    box-shadow: 5px 4px 4px 2px black;
+    background-color:aqua;
+    
+}
+button{
+    padding: 10px 10px;
+    border:none;
+    box-shadow: 2px 2px 4px 3px black;
+    border-radius: 5px;
+    background-color: rgb(51, 48, 48);
+    color: aliceblue;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+button:hover{
+    font-size: larger;
+    background-color: #364844;
+    color: aqua;
+}
+
+
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 3px 4px 3px 5px black;
+    background-color:rgb(0, 139, 139);
+    height: 400px;
+    border-radius: 15px;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    margin: 0 auto;
+  }
+
+  input[type="text"],
+  textarea {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: 15px;
+    margin-top: 15px;
+    border-radius: 10px;
+  }
+
+  input[type="submit"] {
+    background-color: #373b37;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-left:240px ;
+    transition: all 0.3s ease 0s;
+
+  }
+
+  input[type="submit"]:hover{
+    font-size: larger;
+    color: black;
+    background-color: aquamarine;
+  }
